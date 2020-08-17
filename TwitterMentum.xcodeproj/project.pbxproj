@@ -10,20 +10,81 @@
 		0EEEBC5C24E416EA002AFF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC5B24E416EA002AFF78 /* AppDelegate.swift */; };
 		0EEEBC5E24E416EA002AFF78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC5D24E416EA002AFF78 /* SceneDelegate.swift */; };
 		0EEEBC6024E416EA002AFF78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC5F24E416EA002AFF78 /* ViewController.swift */; };
-		0EEEBC6324E416EA002AFF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC6124E416EA002AFF78 /* Main.storyboard */; };
 		0EEEBC6524E416EC002AFF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC6424E416EC002AFF78 /* Assets.xcassets */; };
 		0EEEBC6824E416EC002AFF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC6624E416EC002AFF78 /* LaunchScreen.storyboard */; };
+		0EEEBC7024E4177B002AFF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC6F24E4177B002AFF78 /* Main.storyboard */; };
+		0EEEBC7224E4215F002AFF78 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC7124E4215F002AFF78 /* TweetSentimentClassifier.mlmodel */; };
+		0EEEBC8624E4281C002AFF78 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEBC7C24E427D6002AFF78 /* SwifteriOS.framework */; };
+		0EEEBC8724E4281C002AFF78 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEEBC7C24E427D6002AFF78 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3F87BF804EBA1FFE9B84188 /* Pods_TwitterMentum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651E4DE41271C527FB9435A0 /* Pods_TwitterMentum.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EEEBC7B24E427D6002AFF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		0EEEBC7D24E427D6002AFF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		0EEEBC7F24E427D6002AFF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		0EEEBC8124E427D6002AFF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		0EEEBC8324E427D6002AFF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EEEBC8824E4281C002AFF78 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0EEEBC8724E4281C002AFF78 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0EEEBC5824E416EA002AFF78 /* TwitterMentum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterMentum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEEBC5B24E416EA002AFF78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEEBC5D24E416EA002AFF78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EEEBC5F24E416EA002AFF78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0EEEBC6224E416EA002AFF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EEEBC6424E416EC002AFF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EEEBC6724E416EC002AFF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EEEBC6924E416EC002AFF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEEBC6F24E4177B002AFF78 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0EEEBC7124E4215F002AFF78 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Clones/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		3EC83EA19B909E313AA8A588 /* Pods-TwitterMentum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterMentum.release.xcconfig"; path = "Target Support Files/Pods-TwitterMentum/Pods-TwitterMentum.release.xcconfig"; sourceTree = "<group>"; };
+		5ECF2B5C5D7DD7444292C681 /* Pods-TwitterMentum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterMentum.debug.xcconfig"; path = "Target Support Files/Pods-TwitterMentum/Pods-TwitterMentum.debug.xcconfig"; sourceTree = "<group>"; };
+		651E4DE41271C527FB9435A0 /* Pods_TwitterMentum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterMentum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EEEBC8624E4281C002AFF78 /* SwifteriOS.framework in Frameworks */,
+				D3F87BF804EBA1FFE9B84188 /* Pods_TwitterMentum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +103,11 @@
 		0EEEBC4F24E416EA002AFF78 = {
 			isa = PBXGroup;
 			children = (
+				0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */,
 				0EEEBC5A24E416EA002AFF78 /* TwitterMentum */,
 				0EEEBC5924E416EA002AFF78 /* Products */,
+				0EEEBC8524E4281C002AFF78 /* Frameworks */,
+				54DD1A96B34E981940E23887 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +125,43 @@
 				0EEEBC5B24E416EA002AFF78 /* AppDelegate.swift */,
 				0EEEBC5D24E416EA002AFF78 /* SceneDelegate.swift */,
 				0EEEBC5F24E416EA002AFF78 /* ViewController.swift */,
-				0EEEBC6124E416EA002AFF78 /* Main.storyboard */,
 				0EEEBC6424E416EC002AFF78 /* Assets.xcassets */,
+				0EEEBC6F24E4177B002AFF78 /* Main.storyboard */,
 				0EEEBC6624E416EC002AFF78 /* LaunchScreen.storyboard */,
 				0EEEBC6924E416EC002AFF78 /* Info.plist */,
+				0EEEBC7124E4215F002AFF78 /* TweetSentimentClassifier.mlmodel */,
 			);
 			path = TwitterMentum;
+			sourceTree = "<group>";
+		};
+		0EEEBC7424E427D6002AFF78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEEBC7C24E427D6002AFF78 /* SwifteriOS.framework */,
+				0EEEBC7E24E427D6002AFF78 /* SwifterMac.framework */,
+				0EEEBC8024E427D6002AFF78 /* SwifterDemoiOS.app */,
+				0EEEBC8224E427D6002AFF78 /* SwifterDemoMac.app */,
+				0EEEBC8424E427D6002AFF78 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEEBC8524E4281C002AFF78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651E4DE41271C527FB9435A0 /* Pods_TwitterMentum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54DD1A96B34E981940E23887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF2B5C5D7DD7444292C681 /* Pods-TwitterMentum.debug.xcconfig */,
+				3EC83EA19B909E313AA8A588 /* Pods-TwitterMentum.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EEEBC6C24E416EC002AFF78 /* Build configuration list for PBXNativeTarget "TwitterMentum" */;
 			buildPhases = (
+				EFE6E4909AB75F6338CE04C8 /* [CP] Check Pods Manifest.lock */,
 				0EEEBC5424E416EA002AFF78 /* Sources */,
 				0EEEBC5524E416EA002AFF78 /* Frameworks */,
 				0EEEBC5624E416EA002AFF78 /* Resources */,
+				0EEEBC8824E4281C002AFF78 /* Embed Frameworks */,
+				C40D55EB84400555A62B407D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +213,56 @@
 			mainGroup = 0EEEBC4F24E416EA002AFF78;
 			productRefGroup = 0EEEBC5924E416EA002AFF78 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0EEEBC7424E427D6002AFF78 /* Products */;
+					ProjectRef = 0EEEBC7324E427D6002AFF78 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0EEEBC5724E416EA002AFF78 /* TwitterMentum */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0EEEBC7C24E427D6002AFF78 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 0EEEBC7B24E427D6002AFF78 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EEEBC7E24E427D6002AFF78 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 0EEEBC7D24E427D6002AFF78 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EEEBC8024E427D6002AFF78 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 0EEEBC7F24E427D6002AFF78 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EEEBC8224E427D6002AFF78 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 0EEEBC8124E427D6002AFF78 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EEEBC8424E427D6002AFF78 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 0EEEBC8324E427D6002AFF78 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0EEEBC5624E416EA002AFF78 /* Resources */ = {
@@ -127,11 +271,53 @@
 			files = (
 				0EEEBC6824E416EC002AFF78 /* LaunchScreen.storyboard in Resources */,
 				0EEEBC6524E416EC002AFF78 /* Assets.xcassets in Resources */,
-				0EEEBC6324E416EA002AFF78 /* Main.storyboard in Resources */,
+				0EEEBC7024E4177B002AFF78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C40D55EB84400555A62B407D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterMentum/Pods-TwitterMentum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterMentum/Pods-TwitterMentum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterMentum/Pods-TwitterMentum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE6E4909AB75F6338CE04C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterMentum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EEEBC5424E416EA002AFF78 /* Sources */ = {
@@ -140,6 +326,7 @@
 			files = (
 				0EEEBC6024E416EA002AFF78 /* ViewController.swift in Sources */,
 				0EEEBC5C24E416EA002AFF78 /* AppDelegate.swift in Sources */,
+				0EEEBC7224E4215F002AFF78 /* TweetSentimentClassifier.mlmodel in Sources */,
 				0EEEBC5E24E416EA002AFF78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +334,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0EEEBC6124E416EA002AFF78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0EEEBC6224E416EA002AFF78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0EEEBC6624E416EC002AFF78 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +461,7 @@
 		};
 		0EEEBC6D24E416EC002AFF78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECF2B5C5D7DD7444292C681 /* Pods-TwitterMentum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +480,7 @@
 		};
 		0EEEBC6E24E416EC002AFF78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC83EA19B909E313AA8A588 /* Pods-TwitterMentum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
